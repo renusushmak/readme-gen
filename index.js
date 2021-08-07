@@ -5,21 +5,52 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
-const questions = [ {
+const questions = [ 
+  {
     type: 'input',
     name: 'title',
-    message: 'What is your name?'
+    message: 'Enter Name of the project: '
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Enter description of the project: '
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'How to install?  '
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'How do you use it? '
+  },
+  {
+    type: 'input',
+    name: 'license',
+    message: 'License'
+  },
+  {
+    type: 'input',
+    name: 'contribute',
+    message: 'How to start contributing'
+  },
+  {
+    type: 'input',
+    name: 'testing',
+    message: 'How to test'
   },
   {
     type: 'list',
-    message: 'What is your preferred method of communication?',
-    name: 'contact',
-    choices: ['email', 'phone', 'Slack', 'smoke signal']
+    message: 'Technologies Used: ',
+    name: 'technologies',
+    choices: ['node', 'react', 'mongodb', 'sqlize']
   },
   {
     type: 'checkbox',
-    message: 'What languages do you know?',
-    name: 'stack',
+    message: 'Languages Used:',
+    name: 'languages',
     choices: ['HTML', 'CSS', 'JavaScript', 'SQL']
   }];
 
@@ -41,6 +72,7 @@ function init() {
     inquirer
       .prompt(questions) // Write the user response to a file by chaining the below callback method to the prompt above.
       .then(function(data) {
+        console.log(data);
         // Bonus: Generate the name of your user file from their input
         writeToFile("README.md", generateMarkdown(data));
       });
