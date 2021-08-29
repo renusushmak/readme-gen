@@ -18,7 +18,8 @@ Clone the repo and run the command npm install to install dependencies
 Generate readme preview
 
 ## License:
-1.0
+
+[](https://www.signupgenius.com/)  [test-license](https://www.signupgenius.com/) license.
 
 ## Contribution:
 Clone the repo and start adding questions using inquirer for user feedback
