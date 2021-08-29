@@ -1,6 +1,6 @@
-# werewt
+# Assessment Survey
 ## Description:
-wetery eryety eryteyrt
+This project conducts survey for the process of signing up for a student assessment 
 
 ## Table of Contents:
 * [Installation](#installation:)
@@ -12,23 +12,23 @@ wetery eryety eryteyrt
 * [Languages](#languages:)
 
 ## Installation:
-wetreytrt eryteyty ryreyerty
+Clone the repo and run the command npm install to install dependencies
 
 ## Usage:
-nsbvnsbvnmxcbvnxcb
+Generate readme preview
 
 ## License:
-3.54
+1.0
 
 ## Contribution:
-sgmnfdngmanslgnfdng esgnsmdfngmfngmdfngmdfbg afgjdnfgmfgfdgbajdgf
+Clone the repo and start adding questions using inquirer for user feedback
 
 ## Testing:
-nbfnagsfdmbgfndbgdnfbgnfdmbg jsfgjkfbgf
+Using node index.js command in a terminal from current path
 
 ## Technologies:
 node
 
 ## Languages:
-HTML,CSS,JavaScript,SQL
+HTML,CSS,JavaScript
 
