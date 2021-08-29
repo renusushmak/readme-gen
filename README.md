@@ -1,6 +1,6 @@
-# Assessment Survey
+# Assessment survey
 ## Description:
-This project conducts survey for the process of signing up for a student assessment 
+This project conducts survey of the process of signingup a student for an assessment
 
 ## Table of Contents:
 * [Installation](#installation:)
@@ -12,20 +12,19 @@ This project conducts survey for the process of signing up for a student assessm
 * [Languages](#languages:)
 
 ## Installation:
-Clone the repo and run the command npm install to install dependencies
+Clone the repo in your local and run the npm i to install dependencies - inquirer
 
 ## Usage:
 Generate readme preview
 
 ## License:
-
-[](https://www.signupgenius.com/)  [test-license](https://www.signupgenius.com/) license.
+2.0
 
 ## Contribution:
-Clone the repo and start adding questions using inquirer for user feedback
+Start adding more question to this list of questions using inquirer
 
 ## Testing:
-Using node index.js command in a terminal from current path
+run command 'node index.js'
 
 ## Technologies:
 node
